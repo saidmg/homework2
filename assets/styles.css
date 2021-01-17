@@ -13,7 +13,9 @@ footer {
     border-width: 0.5em;
     text-align: center;
 }
-
+.active{
+    font-weight: bolder;
+}
 .name {
     font-family: 'Ruthie', cursive;
     font-weight: bold;
@@ -36,11 +38,64 @@ footer {
     margin: 1em;
 }
 
+.navbar-toggler{
+    margin-right: 4%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}  
+  
+.fa-github {
+    background: #2c4762;
+    color: white;
+}
+.btn:hover{border-color: black;}
+.btn-primary{background-color:black; border-color: grey;}
+.btn-primary:hover{background-color: lightgrey; color: black;}
+.btn-primary:active:focus{background-color:black;border-color:black}
+.btn-primary:active{background-color:black;border-color:black}
+
 @media only screen and (max-width: 600px) { /* Extra small devices (phones, 600px and down) */
-    .col-s-7 {
-         width: 90%;
+    .col-s-7 { width: 90%; }
+    .name { font-size: 30px; }
+}
+
+@media only screen and (max-width: 768px) {   /* Small devices (portrait tablets and large phones) */
+    .nav-brdr{
+        border-top-style: solid;
+        border-top-color: black;
+     }
+     .navbar-nav{
+        background-color:white ;  
+        text-align: center;
     }
-    .name {
-        font-size: 30px;
-      }
+}
+
+@media only screen and (min-width: 800px) { /* medium and Large devices (laptops/desktops, 800px and up) */
+    .nav-brdr{
+        border-left-style: solid;
+        border-left-color: black;
+    }
+    .navbar-nav{
+        position: absolute; right: 6%;
+    }
 }
