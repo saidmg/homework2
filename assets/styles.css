@@ -103,11 +103,15 @@ input[type=text]:focus,input[type=email]:focus, textarea[type=textarea]:focus, b
     border: 3px solid #555;
 }
   
+.list-group-item{text-align: center;}  /* Center the text in the "About Me" */
 
+.social-media{text-align: center; margin-bottom: 1%;margin-top: 1%;}/* Position the buttons linking social media accounts" */
 
-@media only screen and (max-width: 600px) { /* change some properties on Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { /* Change some properties on Extra small devices (phones, 600px and down) */
     .col-s-7 { width: 90%; }
     .name { font-size: 30px; }
+    .spacing{padding-bottom:20%;}    
+
 }
 
 @media only screen and (max-width: 768px) {   /* Small devices (portrait tablets and large phones) */
@@ -119,9 +123,12 @@ input[type=text]:focus,input[type=email]:focus, textarea[type=textarea]:focus, b
         background-color:white ;  
         text-align: center;
     }
-}
 
-@media only screen and (min-width: 800px) { /* medium and Large devices (laptops/desktops, 800px and up) */
+}
+@media only screen and (min-width:768px){  /* Enlarge the profile pic for ipad and  large screen */
+    .col-md-3{width:100%;}
+}
+@media only screen and (min-width: 800px) { /* Medium and Large devices (laptops/desktops, 800px and up) */
     .nav-brdr{
         border-left-style: solid;
         border-left-color: black;
@@ -129,4 +136,6 @@ input[type=text]:focus,input[type=email]:focus, textarea[type=textarea]:focus, b
     .navbar-nav{
         position: absolute; right: 6%;
     }
+    .col-md-3{width:30%;}
+
 }
