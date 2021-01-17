@@ -1,11 +1,25 @@
+html, body {                                /* line 1 to 13 is to make the footer sticky */
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex-shrink: 0;   
+  }
+
 body {
-    background-image: url('./papers.jfif');
+    background-image: url('./papers.jfif');/* Set a background image for the website */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
-footer {
+footer {                                   /* Set the footer appearance for the website */
     background-color: white;
     padding: 1%;
     border-top-style: solid;
@@ -13,16 +27,16 @@ footer {
     border-width: 0.5em;
     text-align: center;
 }
-.active{
+.active{                                   /* make the tab chosen from the menu Bolder */
     font-weight: bolder;
 }
-.name {
+.name {                                    /* change the font properties of the name in the nav bar */
     font-family: 'Ruthie', cursive;
     font-weight: bold;
     font-size: 40px;
 }
 
-.row1 {
+.row1 {     
     padding: 1em;
     margin: 2em;
     border-bottom-style: solid;
@@ -42,7 +56,7 @@ footer {
     margin-right: 4%;
 }
 
-.fa {
+.fa {                                  /* line 59 to 84 are to make the buttons that link to social media accounts */
     padding: 10px;
     font-size: 30px;
     width: 50px;
@@ -51,7 +65,7 @@ footer {
     margin: 4px 2px;
 }
   
-.fa:hover {
+.fa:hover {  
     opacity: 0.7;
     color: white;
 }
@@ -68,7 +82,7 @@ footer {
     background: #2c4762;
     color: white;
 }
-.btn-primary:defined{color:white;background-color:black;outline:0}
+.btn-primary:defined{color:white;background-color:black;outline:0} /* Line 85 to 104 are to enhance the look of the contact form*/
 .btn-primary:focus{color:white;background-color:black;outline:none;box-shadow:0 0 0 .25rem rgba(71, 66, 66, 0.25)}
 .btn:hover{border-color: black;}
 .btn-primary{background-color:black; border-color: grey;}
@@ -77,7 +91,7 @@ footer {
 .btn-primary:active{background-color:black;border-color:black}
 .form-control:focus{color:#212529;background-color:#fff;outline:0;box-shadow:0 0 0 .25rem rgba(71, 66, 66, 0.25)}
 
-input[type=text], textarea[type=textarea],button[type=submit] {
+input[type=text],input[type=email], textarea[type=textarea],button[type=submit] {
     width: 100%;
     padding: 8px 20px;
     box-sizing: border-box;
@@ -85,13 +99,13 @@ input[type=text], textarea[type=textarea],button[type=submit] {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
-input[type=text]:focus, textarea[type=textarea]:focus, button[type=submit]:focus{
+input[type=text]:focus,input[type=email]:focus, textarea[type=textarea]:focus, button[type=submit]:focus{
     border: 3px solid #555;
 }
   
 
 
-@media only screen and (max-width: 600px) { /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { /* change some properties on Extra small devices (phones, 600px and down) */
     .col-s-7 { width: 90%; }
     .name { font-size: 30px; }
 }
