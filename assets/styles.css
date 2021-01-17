@@ -68,11 +68,28 @@ footer {
     background: #2c4762;
     color: white;
 }
+.btn-primary:defined{color:white;background-color:black;outline:0}
+.btn-primary:focus{color:white;background-color:black;outline:none;box-shadow:0 0 0 .25rem rgba(71, 66, 66, 0.25)}
 .btn:hover{border-color: black;}
 .btn-primary{background-color:black; border-color: grey;}
 .btn-primary:hover{background-color: lightgrey; color: black;}
 .btn-primary:active:focus{background-color:black;border-color:black}
 .btn-primary:active{background-color:black;border-color:black}
+.form-control:focus{color:#212529;background-color:#fff;outline:0;box-shadow:0 0 0 .25rem rgba(71, 66, 66, 0.25)}
+
+input[type=text], textarea[type=textarea],button[type=submit] {
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+input[type=text]:focus, textarea[type=textarea]:focus, button[type=submit]:focus{
+    border: 3px solid #555;
+}
+  
+
 
 @media only screen and (max-width: 600px) { /* Extra small devices (phones, 600px and down) */
     .col-s-7 { width: 90%; }
