@@ -1,0 +1,47 @@
+body {
+    background-image: url('./papers.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+footer {
+    background-color: white;
+    padding: 1%;
+    border-top-style: solid;
+    border-top-color: black;
+    border-width: 0.5em;
+    text-align: center;
+}
+.name {
+    font-family: 'Ruthie', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.row1 {
+    padding: 1em;
+    margin: 2em;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+
+.height5em {
+    height: 2em;
+}
+.rowfixed {
+    padding: 1em;
+    margin: 1em;
+}
+@media only screen and (max-width: 600px)
+        /* Extra small devices (phones, 600px and down) */
+
+         {
+            .col-s-7 {
+                width: 90%;
+            }
+
+            .name {
+                font-size: 30px;
+
+            }
+        }
