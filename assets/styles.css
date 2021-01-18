@@ -13,7 +13,7 @@ html, body {                                /* line 1 to 13 is to make the foote
   }
 
 body {
-    background-image: url('./papers.jfif');/* Set a background image for the website */
+    background-image: url('./images/papers.jfif');/* Set a background image for the website */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
