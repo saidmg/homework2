@@ -24,7 +24,8 @@ which had no errors or warnings to show.
 # Pictures
 * The Screenshots for the website displayed on different screen sizes are provided as a reference in the `assets/images/screenshots` folder.
 ![GitHub Logo](/assets/images/screenshots/Ipad-Pro-Screen-Portfolio.jpeg)
-
+![GitHub Logo](/assets/images/screenshots/X-Small-Screen-Contact.jpeg)
+![GitHub Logo](/assets/images/screenshots/Large-Screen-About.jpeg)
 
 # URLS
 * The URLs of the deployed applications:  https://saidmg.github.io/homework2/
