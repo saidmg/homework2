@@ -42,9 +42,17 @@ footer {                                   /* Set the footer appearance for the 
     border-bottom-style: solid;
     border-bottom-color: lightgrey;
 }
-
+#phoneid{color: black;}
 .height5em {
     height: 2em;
+}
+.fa-file:hover{
+    opacity: 0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
 }
 
 /* .rowfixed {
