@@ -28,5 +28,5 @@ which had no errors or warnings to show.
 ![GitHub Logo](/assets/images/screenshots/Capture3.JPG)
 
 # URLS
-* The URLs of the deployed applications:  https://saidmg.github.io/homework2/
-* The URLs of the GitHub repositories  :  https://github.com/saidmg/homework2.git
+* The URLs of the deployed applications:  https://saidmg.github.io/portfolio/
+* The URLs of the GitHub repositories  :  https://github.com/saidmg/portfolio.git
