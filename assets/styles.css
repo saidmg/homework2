@@ -47,10 +47,10 @@ footer {                                   /* Set the footer appearance for the 
     height: 2em;
 }
 
-.rowfixed {
+/* .rowfixed {
     padding: 1em;
     margin: 1em;
-}
+} */
 
 .navbar-toggler{
     margin-right: 4%;
@@ -80,6 +80,10 @@ footer {                                   /* Set the footer appearance for the 
   
 .fa-github {
     background: #2c4762;
+    color: white;
+}
+.fa-google {
+    background: black;
     color: white;
 }
 .btn-primary:defined{color:white;background-color:black;outline:0} /* Line 85 to 104 are to enhance the look of the contact form*/
@@ -125,6 +129,15 @@ input[type=text]:focus,input[type=email]:focus, textarea[type=textarea]:focus, b
     }
 
 }
+@media only screen and (max-width: 1400px) {   /* Small devices (portrait tablets and large phones) */
+
+col-7 {
+    flex: 0 0 auto;
+    width: 80%;
+}
+}
+
+
 @media only screen and (min-width:768px){  /* Enlarge the profile pic for ipad and  large screen */
     .col-md-3{width:100%;}
 }
